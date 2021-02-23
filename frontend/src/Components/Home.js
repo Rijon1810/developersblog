@@ -1,5 +1,6 @@
 import React from 'react'
 import Timer from "./Timer/Timer"
+import Preloader from "./PreLoder/Preloder"
 function Home() {
     return (
         <div className="App">
@@ -10,6 +11,7 @@ function Home() {
           Coming Soon
         </h1>
         <Timer />
+        <Preloader />
       </div>
     </div>
     )
