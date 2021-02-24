@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.MainNavBar{
+    background: linear-gradient(89.95deg, #473558 0.24%, #242324 32.95%);
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+}
+.BrandName{
+    color: #fff !important;
+}
+.NavToggle{
+    color: #fff !important;
+}
+.HeaderMenu{
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.header__getStarted{
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    background-image: linear-gradient(to right top, #004c7b, #004d78, #004d76, #004e73, #004e70, #004b6d, #004969, #004666, #004061, #003a5c, #013457, #032e52);   padding-left: 30px !important;
+   padding-right: 30px !important;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 37px;
+   border: none;
+}

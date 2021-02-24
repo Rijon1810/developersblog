@@ -1,17 +1,10 @@
 import React from 'react'
-import Timer from "./Timer/Timer"
-import Preloader from "./PreLoder/Preloder"
+import style from "./home.module.css"
 function Home() {
     return (
         <div className="App">
       <div className="container">
-        <h1>
-          Website
-          <br />
-          Coming Soon
-        </h1>
-        <Timer />
-        <Preloader />
+       <h1>Hello World</h1>
       </div>
     </div>
     )
