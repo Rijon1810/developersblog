@@ -7,8 +7,8 @@ function Header() {
     <div>
       <Navbar className={style.MainNavBar} expand="lg">
         <Container>
-          <NavLink>
-            <Navbar.Brand className={style.BrandName} to="/">
+          <NavLink href="/home">
+            <Navbar.Brand className={style.BrandName} >
               Developers Blog
             </Navbar.Brand>
           </NavLink>
@@ -20,7 +20,7 @@ function Header() {
             <Nav className="ml-auto">
               <IconButton>
                 {" "}
-                <NavLink className={style.HeaderMenu} to="/">
+                <NavLink className={style.HeaderMenu} href="/home">
                   Our Story
                 </NavLink>
               </IconButton>
@@ -41,7 +41,7 @@ function Header() {
 
               <IconButton>
                 {" "}
-                <Nav.Link className={style.header__getStarted} href="#!">
+                <Nav.Link className={style.header__getStarted} href="/login">
                   Get Started
                 </Nav.Link>
               </IconButton>
